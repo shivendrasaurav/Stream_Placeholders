@@ -1,0 +1,19 @@
+body h4 {
+  margin-left: 100vh;
+  -webkit-transform: scale(2.2);
+          transform: scale(2.2);
+  font-size: 100px;
+  color: #fcfcfc;
+  line-height: 0.6;
+}
+
+body .container_gib {
+  height: 92vh;
+  background-image: linear-gradient(45deg, #06a5af, #06a7dd, #06a77d, #02b85b, #fc9842, #ff6600, #de1738, #cc2936, #de1738, #ff6600, #fc9842, #02b85b, #06a77d, #06a7dd, #06a5af);
+  background-size: 400%;
+  text-align: left;
+  font-family: 'Apex MK2';
+  -webkit-animation: bganim 60s linear infinite;
+          animation: bganim 60s linear infinite;
+}
+/*# sourceMappingURL=brb.css.map */

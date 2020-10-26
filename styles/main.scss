@@ -6,8 +6,9 @@ body{
         background-size: 400%;
         text-align: center;
         font-family: 'Apex MK2';
-        animation: bganim 60s linear infinite;    
+        animation: bganim 60s linear infinite alternate; 
     }
+
 
     @keyframes bganim{
         0% {
@@ -37,5 +38,13 @@ body{
         transform: scale(2.2);
         font-size: 56px;
         line-height: 1.0;
+    }
+    h3.end{
+        font-size: 63px;
+    }
+    h4{
+        font-size: 100px;
+        transform: scale(2.2);
+        line-height: 0.6;
     }
 }

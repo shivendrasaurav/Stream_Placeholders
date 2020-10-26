@@ -4,8 +4,8 @@ body .container {
   background-size: 400%;
   text-align: center;
   font-family: 'Apex MK2';
-  -webkit-animation: bganim 60s linear infinite;
-          animation: bganim 60s linear infinite;
+  -webkit-animation: bganim 60s linear infinite alternate;
+          animation: bganim 60s linear infinite alternate;
 }
 
 @-webkit-keyframes bganim {
@@ -51,5 +51,16 @@ body h3 {
           transform: scale(2.2);
   font-size: 56px;
   line-height: 1.0;
+}
+
+body h3.end {
+  font-size: 63px;
+}
+
+body h4 {
+  font-size: 100px;
+  -webkit-transform: scale(2.2);
+          transform: scale(2.2);
+  line-height: 0.6;
 }
 /*# sourceMappingURL=main.css.map */
