@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stream Starting Soon</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            width: 100vw;
+            height: 100vh;
+        }
+        .newCont{
+            width: 63%;
+            margin: auto;
+            padding-top: 20vh;
+        }
+        .logo{
+            width: 420px;
+            position: relative;
+            top: 60px;
+            filter: invert(90%);
+        }
+        h1{
+            display: inline;
+            font-size: 220px;
+            font-family: "Apex Mk2";
+            vertical-align: text-bottom;
+            color: #fafafa;
+            position: relative;
+            right: 70px;
+        }
+        h2{
+            font-size: 60px;
+            font-family: "Apex Mk2";
+            text-align: center;
+            vertical-align: text-bottom;
+            color: #fafafa;
+            position: relative;
+            top: -50px;
+        }
+        .animatedBG{
+            background: radial-gradient(circle at top right, red, transparent 60%),
+                        radial-gradient(circle at bottom left, green, transparent 60%),
+                        radial-gradient(circle at top left, blue, transparent),
+                        radial-gradient(circle at bottom right, cyan, transparent);
+            filter: none;
+            animation: bganim 20s linear infinite alternate-reverse;
+        }
+        @keyframes bganim{
+        0% {
+            backfrop-filter: none;
+        }
+        50% {
+            backdrop-filter: invert(40%) hue-rotate(270deg);
+        }
+        100% {
+            backdrop-filter: none;
+        }
+    }
+    </style>
+</head>
+<body class="animatedBG">
+    <div class="newCont">
+        <img src="./trans.png" class="logo" alt="Stream Starting Soon" />
+        <h1>GAMING</h1>
+        <br/>
+        <h2>Stream Starting Soon</h2>
+    </div>
+</body>
+</html>
